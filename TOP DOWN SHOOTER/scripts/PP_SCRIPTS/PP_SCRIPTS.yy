@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PP_SCRIPTS",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PP_SCRIPTS",
+  "parent":{
+    "name":"new_blank",
+    "path":"new_blank.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

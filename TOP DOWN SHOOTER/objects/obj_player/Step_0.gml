@@ -1,3 +1,4 @@
+
 var hor_movement = 0;
 var vert_movement = 0;
 
@@ -10,27 +11,27 @@ var y_moveamount = vert_movement*mspeed;
 
 //HORIZONTAL COLLISIONS
 if !place_meeting(x+x_moveamount, y, par_wall) {
-x+=x_moveamount;
-}
-else
-{
-while(!place_meeting(x+sign(x+x_moveamount), y, par_wall)) {
-	x+=sign(x_moveamount);
-}
-
+	
+	x+=x_moveamount;
+	
+} else {
+	
+	while(!place_meeting(x+sign(x_moveamount), y, par_wall)) {
+		x+=sign(x_moveamount);
+	}
 }
 
 //VERTICAL COLLISIONS
 if !place_meeting(x, y+y_moveamount, par_wall) {
-y+=y_moveamount;
+	
+	y+=y_moveamount;
+} else {
+	
+	while(!place_meeting(x, y+sign(y_moveamount), par_wall)) {	
+		
+		y+=sign(y_moveamount);
+	}
 }
-
-else
-{
-while(!place_meeting(x, y+sign(y_moveamount), par_wall)) {	
-	y+=sign(y_moveamount);
-}
-
 
 
 
@@ -38,15 +39,17 @@ while(!place_meeting(x, y+sign(y_moveamount), par_wall)) {
 //MOUSE ROTATION
 
 var angle_to_mouse = point_direction(x, y, mouse_x, mouse_y)
-image_angle = angle;
+//image_angle = angle;
 angle = angle_to_mouse;
 
 
 
 //BULLET FIRING
 if (mouse_check_button(mb_left)) {
-	if fire_cooldown <= 0 {
-		var b = instance_create_depth(x, y, 5, obj_bullet)
+	
+	if (fire_cooldown <= 0) {
+		
+		var b = instance_create_depth(x, y, 5, obj_bullet);
 		b.speed = bullet_speed;
 		b.direction = point_direction(x, y, mouse_x, mouse_y);
 		b.image_angle = b.direction;
@@ -56,7 +59,6 @@ if (mouse_check_button(mb_left)) {
 	}
 }
 
-if fire_cooldown > 0 {
-fire_cooldown -= 1;
-}
+if (fire_cooldown > 0) {
+	fire_cooldown -= 1;
 }
