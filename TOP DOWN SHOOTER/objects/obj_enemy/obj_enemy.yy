@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"new_blank",
     "path":"new_blank.yyp",
   },
   "parentObjectId":{
-    "name":"par_wall",
-    "path":"objects/par_wall/par_wall.yy",
+    "name":"par_bullet_collision",
+    "path":"objects/par_bullet_collision/par_bullet_collision.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_enemy",
+    "path":"sprites/spr_enemy/spr_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

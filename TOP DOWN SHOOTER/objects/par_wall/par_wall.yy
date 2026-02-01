@@ -9,7 +9,10 @@
     "name":"new_blank",
     "path":"new_blank.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_bullet_collision",
+    "path":"objects/par_bullet_collision/par_bullet_collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
