@@ -59,7 +59,7 @@ if (mouse_check_button(mb_left)) {
 	
 	if (fire_cooldown <= 0) {
 		
-		var b = instance_create_depth(x, y, 5, struct.variable);
+		var b = instance_create_depth(x, y, 5, weapon.bullet);
 		b.speed = bullet_speed;
 		b.direction = point_direction(x, y, mouse_x, mouse_y);
 		b.image_angle = b.direction;
