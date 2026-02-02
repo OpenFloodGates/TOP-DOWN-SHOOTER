@@ -8,8 +8,8 @@
   "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"new_blank",
-    "path":"new_blank.yyp",
+    "name":"entities",
+    "path":"folders/\"real\" objects/entities.yy",
   },
   "parentObjectId":{
     "name":"par_bullet_collision",

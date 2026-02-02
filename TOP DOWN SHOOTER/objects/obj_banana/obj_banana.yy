@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"par_bullet_collision",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_banana",
+  "eventList":[],
   "managed":true,
-  "name":"par_bullet_collision",
+  "name":"obj_banana",
   "overriddenProperties":[],
   "parent":{
-    "name":"abstract objects",
-    "path":"folders/abstract objects.yy",
+    "name":"bullet types",
+    "path":"folders/\"real\" objects/bullet types.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_banana",
+    "path":"sprites/spr_banana/spr_banana.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

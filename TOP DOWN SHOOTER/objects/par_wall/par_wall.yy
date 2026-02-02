@@ -6,8 +6,8 @@
   "name":"par_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"new_blank",
-    "path":"new_blank.yyp",
+    "name":"abstract objects",
+    "path":"folders/abstract objects.yy",
   },
   "parentObjectId":{
     "name":"par_bullet_collision",

@@ -8,8 +8,8 @@
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"new_blank",
-    "path":"new_blank.yyp",
+    "name":"setting",
+    "path":"folders/\"real\" objects/setting.yy",
   },
   "parentObjectId":{
     "name":"par_wall",

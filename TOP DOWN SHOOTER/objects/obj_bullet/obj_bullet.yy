@@ -10,8 +10,8 @@
   "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"new_blank",
-    "path":"new_blank.yyp",
+    "name":"bullet types",
+    "path":"folders/\"real\" objects/bullet types.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"new_blank",
-    "path":"new_blank.yyp",
+    "name":"entities",
+    "path":"folders/\"real\" objects/entities.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_idle",
-    "path":"sprites/spr_player_idle/spr_player_idle.yy",
+    "name":"spr_player_apple",
+    "path":"sprites/spr_player_apple/spr_player_apple.yy",
   },
   "spriteMaskId":null,
   "visible":true,
