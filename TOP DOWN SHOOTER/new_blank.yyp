@@ -24,6 +24,7 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_wall_breakable","path":"objects/obj_wall_breakable/obj_wall_breakable.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"par_bullet_collision","path":"objects/par_bullet_collision/par_bullet_collision.yy",},},
     {"id":{"name":"par_wall","path":"objects/par_wall/par_wall.yy",},},
