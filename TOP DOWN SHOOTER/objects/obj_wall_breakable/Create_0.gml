@@ -9,3 +9,5 @@ f_hit = function(_id, _damage)	{
 	
 }
 hp = 2;
+
+//IM AN IDIOT U CAN JUST GO RIGHT THROUGH IT
