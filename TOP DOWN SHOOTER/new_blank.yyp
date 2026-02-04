@@ -39,6 +39,7 @@
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
     {"id":{"name":"par_bullet_collision","path":"objects/par_bullet_collision/par_bullet_collision.yy",},},
     {"id":{"name":"par_wall","path":"objects/par_wall/par_wall.yy",},},
+    {"id":{"name":"rm_ini","path":"rooms/rm_ini/rm_ini.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"PP_SCRIPTS","path":"scripts/PP_SCRIPTS/PP_SCRIPTS.yy",},},
     {"id":{"name":"mask_player","path":"sprites/mask_player/mask_player.yy",},},
@@ -56,6 +57,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_ini","path":"rooms/rm_ini/rm_ini.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":null,
