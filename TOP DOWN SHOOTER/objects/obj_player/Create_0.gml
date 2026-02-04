@@ -17,3 +17,5 @@ angle = 0;
 
 weapon_id = 0;
 weapon = obj_control.getWeapon(weapon_id);
+
+depth = -5;

@@ -19,9 +19,10 @@ function getWeapon(_id) {
 
 weapon_list = ds_list_create();
 
-addWeapon("banana", 60, true, obj_banana, 0, 3, spr_player_banana)
-addWeapon("watermelon", 30, false, obj_watermelon, 0, 3, spr_player_watermelon)
 addWeapon("apple", 60, false, obj_bullet, 0, 5, spr_player_apple)
+addWeapon("banana", 60, true, obj_banana, 0, 3, spr_player_banana)
+addWeapon("watermelon", 30, false, obj_watermelon, 0, 1, spr_player_watermelon)
+
 
 
 // DONT TOUCH THIS STUFF

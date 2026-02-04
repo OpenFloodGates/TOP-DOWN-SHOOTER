@@ -44,15 +44,23 @@ angle = angle_to_mouse;
 
 //WEAPON TOGGLE
 
+weapon = obj_control.getWeapon(weapon_id);
+	
 if keyboard_check_pressed(weapon_toggle_key) {
 	weapon_id++;
+	
+	
 	
 	if weapon_id >= ds_list_size(obj_control.weapon_list){
 		weapon_id = 0;
 	}
 	
-	weapon = obj_control.getWeapon(weapon_id);
+
 }
+
+
+
+
 
 //BULLET FIRING
 if (mouse_check_button(mb_left)) {
